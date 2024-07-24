@@ -1,0 +1,480 @@
+nav {
+    background-color: white;
+    padding: 16px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 img {
+    height: 70px;
+    padding: 0 0 0 150px;
+}
+
+ul {
+    list-style: none;
+    background-color: white;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+
+
+}
+ul li a{
+    display: block;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+     
+    text-align: center;
+    text-decoration: none;
+}
+/* ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+}
+
+ul li a{
+    text-decoration: none
+
+} */
+ul li a:hover{
+    color: blue
+}
+
+.signup {
+    background-color: ;
+    color: black;
+    border-color: black;
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: 1px solid black;
+}
+.dropdown li  {
+    display: block;
+    background: white;
+    margin: 0px 0px;
+    text-align: left;
+    
+  
+}
+.dropdown li a{
+    text-align: left;
+    margin-right: 10px;
+}
+
+.dropdown{
+    width: auto;
+    /* background: white; */
+    position: absolute;
+    z-index: 999;
+    display: none;
+   
+}
+ul li:hover ul.dropdown{
+    display: block;
+    
+    /* border: 5px solid black; */
+}
+/*.topnav-right .signup:hover {
+    background-color: #0056b3;
+}*/
+.box{
+	 margin: 1rem;
+  	padding: 2rem 2rem;
+    margin-top: 125px;
+
+}
+.box1{
+	display: inline-block;
+	padding: 1rem 1rem;
+/*	width: 400px;*/
+	vertical-align: middle;
+	background-color: ;
+	padding: 10px 20px 15px 150px;
+	
+
+}
+.box1 img{
+	height: 500px;
+}
+
+	
+
+}
+.orange{
+	color: orange;
+	padding: ;
+	font-family: monospace;
+}
+.blue{
+	color: black;
+	font-size: 50px;
+	line-height: 1;
+}
+.in{
+	line-height: 1.5;
+}
+.box1 a{
+	text-decoration: none;
+}
+.Find{
+	background-color:orange ;
+    color: white;
+    border-color: ;
+    border-radius: 10px;
+    padding: 10px  15px;
+    border: 1px;
+}
+
+.data {
+	margin: 1rem;
+  	padding: 2rem 2rem;
+	vertical-align: middle;
+	text-align: center;
+	
+
+}
+.category{
+	color: gray;
+}
+.options {
+    margin: 1rem;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.option1 {
+    display: inline-block;
+    padding: 3rem;
+    vertical-align: middle;
+}
+
+.option1:hover {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+.places {
+    margin: 1rem;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.place2 {
+    display: inline-block;
+    padding: 4rem;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.place2:hover {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px gray;
+}
+
+.place2 img {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.place2 p img {
+    height: 10px;
+}
+
+.steps{
+	 margin: 1rem;
+  	padding: 12rem 12rem;
+  	padding: 0 50px 0 50px;
+  	text-align: center;
+
+
+}
+.step1{
+	display: inline-block;
+	padding: 6rem 6rem;
+	vertical-align: middle;
+	
+
+}
+.step1 img{
+	height: 250px;
+}
+.step2 img{
+	height: 30PX;
+
+}
+
+.try {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    padding: 0 0 0 0;
+    text-align: left;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center items */
+}
+.try1 img{
+	height: 50px;
+
+}
+.try1{
+	display: inline-block;
+	padding: 1rem 1rem;
+	vertical-align: middle;
+	padding: 0px 0px 0px 15px;
+}
+
+.form{
+	border-radius: 20px;
+	background-color:whitesmoke;
+	margin: auto;
+	height: 500px;
+	width: 600px;
+
+}
+.form1{
+	text-align: left;
+	padding: 0 0 0 50px;
+}
+.form1 img{
+	height: 50px;
+	text-align: left;
+}
+.form img{
+ padding: 30px 0 0 0;
+ border-radius: 50px;
+}
+
+
+/*araku page*/
+.araku {
+  border: 1px ;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.araku1 {
+  display: inline-block;
+  border: 1px ;
+  padding: 1rem;
+  vertical-align: middle;
+  margin-right: 80px;
+}
+.araku2 {
+  display: inline-block;
+  border: 1px ;
+  padding: 1rem;
+  vertical-align: middle;
+  margin-left: 80px;
+}
+
+.araku1 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+.araku2 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+.araku1 h1{
+	color: black;
+}
+.araku2 h1{
+	color: black;
+}
+.araku1:hover{
+  border: none;
+  border-radius: 15px;
+  height: 400px;
+  box-shadow: 3px 2px 5px gray;
+}
+
+.araku2:hover{
+  border: none;
+  border-radius: 15px;
+  height: 400px;
+  box-shadow: 3px 2px 5px gray;
+}
+/* araku slides */
+
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+   
+}
+
+.slider1{
+    width: 700px;
+    height: 400px;
+    background: url(1.png);
+    background-size: 700px 400px;
+    /* margin:  100px auto; */
+    animation: slide1 20s infinite;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    margin: 0   auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius:  10px;
+    border: 2px solid black;
+
+    filter: drop-shadow(10px 5px 20px rgb(66, 4, 66));
+
+
+}
+@keyframes slide1{
+
+25%{
+    background: url(2.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px ;
+   
+}
+50%{
+    background: url(3.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+75%{
+    background: url(4.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+100%{
+    background: url(1.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+}
+
+.description h3{
+
+	text-align: center;
+	margin-left: 350px;
+	margin-right: 350px;
+
+}
+
+/*lambasingi slides*/
+
+
+.slider2{
+    width: 700px;
+    height: 400px;
+    background: url(5.png);
+    background-size: 700px 400px;
+    /* margin:  100px auto; */
+    animation: slide2 20s infinite;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    margin: 0   auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius:  10px;
+    border: 2px solid black;
+
+    filter: drop-shadow(10px 5px 20px rgb(66, 4, 66));
+
+
+}
+@keyframes slide2{
+
+25%{
+    background: url(6.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px ;
+   
+}
+50%{
+    background: url(7.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+75%{
+    background: url(8.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+100%{
+    background: url(5.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+}
+
+
+
+/*vanajangi slides*/
+
+.slider3{
+    width: 700px;
+    height: 400px;
+    background: url(9.png);
+    background-size: 700px 400px;
+    /* margin:  100px auto; */
+    animation: slide3 20s infinite;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    margin: 0   auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius:  10px;
+    border: 2px solid black;
+
+    filter: drop-shadow(10px 5px 20px rgb(66, 4, 66));
+
+
+}
+@keyframes slide3{
+
+25%{
+    background: url(10.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px ;
+   
+}
+50%{
+    background: url(11.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+75%{
+    background: url(12.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+100%{
+    background: url(9.png);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+
+}
+}
